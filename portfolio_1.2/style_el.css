@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background: linear-gradient(159deg, rgb(18, 18, 61), rgb(211, 93, 93));
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vh;
+}
+h2:hover {
+    background: linear-gradient(
+            to right, #eaff9f, #9e8ee6);
+        -webkit-text-fill-color: transparent;
+        background-clip: border-box;
+        -webkit-background-clip: text;
+}
+body {
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.profile-body {
+    font-size: x-large;
+    margin: 2%;
+}
+.card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.993);
+    border-radius: 10px;
+    width: 97%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgba(0, 0, 0, 0.507);
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(120deg,  #1a74e9,
+    #0c1608);
+background-clip: border-box;
+-webkit-background-clip:  text;
+}
+.social-item_1 {
+    justify-content: right;
+}
